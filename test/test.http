@@ -1,0 +1,17 @@
+POST http://localhost:8000/transcribe
+Content-Type: application/json
+
+{
+  "filename": "sound1.mp3"
+}
+
+###
+POST http://localhost:8000/label/train_segment
+Content-Type: application/json
+
+{
+  "label": "씹어 빨리 삼켜",
+  "start_time": 0.0,
+  "end_time": 2.78,
+  "filename": "test.mp4"
+}

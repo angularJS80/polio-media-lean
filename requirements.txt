@@ -1,0 +1,7 @@
+fastapi==0.95.0
+uvicorn==0.22.0
+openai-whisper==20240930
+tensorflow==2.15.0
+torch==2.0.1
+numpy<2.0
+opencv-python
