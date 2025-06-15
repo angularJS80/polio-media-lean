@@ -1,3 +1,5 @@
+- FFMPEG 무거운 자원이 많아서 파이썬 API 코드에서 참조하는 자원은 Dockerfile에 내장함. 
+
 docker build -t whisper-api .
 docker run -it --rm \
 -v $(pwd):/app \
